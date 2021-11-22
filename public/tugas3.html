@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Rih Prajna's Portofolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Freehand&display=swap" rel="stylesheet"> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style media="screen">
+
+*{
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  transition: all .2s linear;
+  font-family: tahoma;
+}
+  
+html{
+  scroll-behavior: smooth;
+}
+
+img{
+    border-radius: 2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+h1{
+  font-family: 'Freehand', cursive;
+}
+
+.sec{
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:rgb(255, 255, 255);
+  background-image: url(images/backgroundbody.jpg);
+}
+
+.sec1{
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:#777;
+  background: #f9f9f9;
+}
+
+.sec2{
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:#777;
+  background: #ddd;
+}
+
+
+.navbar{
+  position: fixed;
+}
+
+.navbar ul{
+  list-style: none;
+  padding:0; margin: 0;
+}
+
+.navbar ul li{
+  width: 200px;
+  position: relative;
+  text-align: right;
+}
+  </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">  
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#section1">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#section2">Prologue</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Portofolio
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#section31">Poster</a>
+        <a class="dropdown-item" href="#section32">Illustration</a>
+      </div>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#section4">Epilogue</a>
+      </li>
+  </ul>
+</nav>
+
+<section class="sec" id="section1"><div>
+    <h1 style="text-align: center;">Welcome to my Online Portofolio</h1>
+    <p style="text-align: center;">Try to scroll this section and look at the navigation bar while scrolling! ^^</p>
+  </div>
+</section>
+
+<section style="text-align: center;" class="sec1" id="section2"><div>
+  <img src="images/prologue.png" alt="prologue" width="250" height="250">
+    <h1>Prologue</h1>
+    <p>No one can stop you being you</p>
+    <p>-J.S-</p>
+  </div>
+</section>
+
+<section class="sec2" id="section31"><div>
+  <br>
+    <h1 style="text-align: center;">Poster</h1>
+    <img src="images/poster1.png" alt="poster1" style="height: 15%;width: 15%;"><br>
+    <img src="images/poster2.png" alt="poster2" style="height: 15%;width: 15%;"><br>
+    <img src="images/poster3.png" alt="poster3" style="height: 15%;width: 15%;">
+    <br>
+  </div>
+</section>
+
+<section class="sec1" id="section32"><div>
+  <br>
+    <h1 style="text-align: center;">Illustration</h1>
+    <img src="images/illus1.png" alt="illus1" style="height: 30%;width: 30%;"><br>
+    <img src="images/illus2.png" alt="illus2" style="height: 30%;width: 30%;"><br>
+  </div>
+</section>
+
+<section style="text-align: center;" class="sec2" id="section4"><div>
+    <h1 style="text-align: center;">Epilogue</h1>
+    <p>There's No GoodBye Between Us</p>
+    <p>-Yoko Ono-</p>
+</section>
+
+</body>
+</html>
