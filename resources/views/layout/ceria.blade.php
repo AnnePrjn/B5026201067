@@ -31,7 +31,7 @@
                 <button type="button" id="sidebarCollapse" class="btn btn-primary">
         </button>
     </div>
-          <div class="img bg-wrap text-center py-4" style="background-image: url('https://image.freepik.com/free-vector/white-abstract-wallpaper_23-2148830027.jpg');">
+          <div class="img bg-wrap text-center py-4">
               <div class="user-logo">
                 <div class="img" style="background-image: url(https://media-exp1.licdn.com/dms/image/C4D03AQGGUchcfnW_ZQ/profile-displayphoto-shrink_800_800/0/1592135789899?e=1644451200&v=beta&t=wpmlvRio0yZFpO_f-4aCjoV_rZF4UeeqlZhCnINoUgk);"></div>
                   <h3>Rih Prajna Nurfatikha</h3>
@@ -46,19 +46,9 @@
             <a href="/absen"> Absen</a>
           </li>
           <li>
-            <a href="#"> Praktikum</a>
+            <a href="/bank"> Bank</a>
           </li>
     </ul>
-
-    <div class="footer" style="font-family:Arial, Helvetica, sans-serif">
-      <p>
-        Copyright &copy;
-        <script>
-          document.write(new Date().getFullYear());
-        </script>
-         5026201067 Rih Prajna Nurfatikha
-      </p>
-    </div>
 
     </nav>
 
@@ -67,7 +57,20 @@
         @section('isikonten')
         @show
       </div>
+
 		</div>
+
+     <div class="footer" style="font-family:Arial, Helvetica, sans-serif">
+        <p style="text-align:center"><font color="black">
+            Copyright &copy;
+            <script>
+            document.write(new Date().getFullYear());
+            </script>
+            5026201067 Rih Prajna Nurfatikha
+        </font>
+        </p>
+        </div>
+
 
 <script src="{{asset('js/jquery.min.js')}}"></script>
 <script src="{{asset('js/popper.js')}}"></script>

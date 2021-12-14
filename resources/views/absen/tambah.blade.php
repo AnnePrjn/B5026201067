@@ -6,7 +6,7 @@
 
     <h3>Tambah Absen Pegawai</h3>
 
-    <a href="/absen" class="btn btn-secondary">Kembali</a>
+    <a href="/absen" class="btn btn-link">Kembali</a>
     <br><br>
 
     <form action="/absen/store" method="post">

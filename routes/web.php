@@ -38,6 +38,8 @@ Route::post('/pegawai/store','PegawaiController@store');
 Route::get('/pegawai/edit/{id}','PegawaiController@edit');
 Route::post('/pegawai/update','PegawaiController@update');
 Route::get('/pegawai/hapus/{id}','PegawaiController@hapus');
+Route::get('/pegawai/cari','PegawaiController@cari');
+Route::get('/pegawai/detail/{id}','PegawaiController@view');
 
 //route CRUD
 Route::get('/absen','AbsenController@index');
@@ -46,3 +48,13 @@ Route::post('/absen/store','AbsenController@store');
 Route::get('/absen/edit/{id}','AbsenController@edit');
 Route::post('/absen/update','AbsenController@update');
 Route::get('/absen/hapus/{id}','AbsenController@hapus');
+
+//route CRUD
+Route::get('/bank','BankController@index');
+Route::get('/bank/tambah','BankController@tambah');
+Route::post('/bank/store','BankController@store');
+Route::get('/bank/edit/{id}','BankController@edit');
+Route::post('/bank/update','BankController@update');
+Route::get('/bank/hapus/{id}','BankController@hapus');
+Route::get('/bank/cari','BankController@cari');
+Route::get('/bank/detail/{id}','BankController@view');

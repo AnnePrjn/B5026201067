@@ -5,7 +5,7 @@
 @section('isikonten')
 
     <h3>Edit Data Absen</h3>
-    <a href="/absen" class="btn btn-secondary"> Kembali</a>
+    <a href="/absen" class="btn btn-link"> Kembali</a>
     <br/>
     <br/>
     @foreach($absen as $p)
