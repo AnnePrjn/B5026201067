@@ -58,3 +58,13 @@ Route::post('/bank/update','BankController@update');
 Route::get('/bank/hapus/{id}','BankController@hapus');
 Route::get('/bank/cari','BankController@cari');
 Route::get('/bank/detail/{id}','BankController@view');
+
+//route CRUD
+Route::get('/nilaikuliah','NilaikuliahController@index');
+Route::get('/nilaikuliah/tambah','NilaikuliahController@tambah');
+Route::post('/nilaikuliah/store','NilaikuliahController@store');
+Route::get('/nilaikuliah/edit/{id}','NilaikuliahController@edit');
+Route::post('/nilaikuliah/update','NilaikuliahController@update');
+Route::get('/nilaikuliah/hapus/{id}','NilaikuliahController@hapus');
+Route::get('/nilaikuliah/cari','NilaikuliahController@cari');
+Route::get('/nilaikuliah/detail/{id}','NilaikuliahController@view');

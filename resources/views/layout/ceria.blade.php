@@ -48,6 +48,9 @@
           <li>
             <a href="/bank"> Bank</a>
           </li>
+          <li>
+            <a href="/nilaikuliah">[EAS] Nilai Kuliah</a>
+          </li>
     </ul>
 
     </nav>
